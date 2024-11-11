@@ -1,14 +1,14 @@
 AOS.init();
 
 
-const dataEvento = new Date('Mar 25, 2024 19:00:00');
-const timeStampEvento = dataEvento.getTime();
+const dataEvento = new Date('Dec 15, 2024 19:00:00');
+const timeStempEvento = dataEvento.getTime();
 
 const contaHoras = setInterval(function() {
     const agora = new Date();
-    const timeStampAtual = agora.getTime();
+    const timeStempAtual = agora.getTime();
 
-    const distanciaEvento = timeStampEvento - timeStampAtual;
+    const distanciaEvento = timeStempEvento - timeStempAtual;
 
     const diasEmMs = 1000 * 60 * 60 * 24;
     const horasEmMs = 1000 * 60 * 60;
